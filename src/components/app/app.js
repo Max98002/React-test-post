@@ -13,9 +13,11 @@ export default class App extends Component {
     super(props);
     this.state = {
       data : [
-        { label: 'Прокинувся сьогодні в 6 ранку', important: false, like: false, id: 1  },
-        { label: 'Був навіть бігати', important: false, like: false, id: 2  },
-        { label: 'Завоздушив систему авто, тормоз', important: false, like: false, id: 3  },
+        { label: 'Клікнувши на мене можна лайкнути', important: false, like: false, id: 1  },
+        { label: 'Якщо на зірочку то важливий', important: false, like: false, id: 2  },
+        { label: 'Якщо на кошик то я видалюсь', important: false, like: false, id: 3  },
+        { label: 'Мене можна знайти в полі пошук по содержимому текста', important: false, like: false, id: 4  },
+        { label: 'Можна переглянути всі які сподобались', important: false, like: false, id: 5  },
       ],
       term: '',
       filter: 'all'
